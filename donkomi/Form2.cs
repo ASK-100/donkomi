@@ -22,28 +22,28 @@ namespace donkomi
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form1 form1 = new Form1();
-            form1.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-          
-        }
-
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
             
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form2 form2 = new Form2();
-            form2.Show();
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void navPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
 
         }
     }

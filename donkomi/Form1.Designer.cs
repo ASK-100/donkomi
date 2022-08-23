@@ -46,9 +46,9 @@
             this.splitter1.BackColor = System.Drawing.Color.Navy;
             this.splitter1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.splitter1.Location = new System.Drawing.Point(835, 0);
+            this.splitter1.Location = new System.Drawing.Point(856, 0);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(572, 757);
+            this.splitter1.Size = new System.Drawing.Size(551, 757);
             this.splitter1.TabIndex = 5;
             this.splitter1.TabStop = false;
             this.splitter1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter1_SplitterMoved_1);
@@ -64,7 +64,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(798, 757);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 757);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // label1
@@ -148,8 +148,9 @@
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(1277, 0);
+            this.button3.Location = new System.Drawing.Point(1288, 0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(60, 56);
             this.button3.TabIndex = 14;
@@ -162,6 +163,7 @@
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button4.Location = new System.Drawing.Point(1348, 0);
